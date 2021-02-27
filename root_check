@@ -1,6 +1,8 @@
 #!/bash/bin
 
 if [ ${id} -ne 0 ] then
+echo
 echo " You need root Access"
+sleep 10
 exit 1
 fi
