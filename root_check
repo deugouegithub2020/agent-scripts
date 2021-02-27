@@ -17,3 +17,4 @@ exit 99
 fi
 
 free -m
+exit 0
