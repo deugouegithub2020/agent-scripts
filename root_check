@@ -1,0 +1,6 @@
+#!/bash/bin
+
+if [ ${id} -ne 0 ] then
+echo " You need root Access"
+exit 1
+fi
