@@ -14,7 +14,7 @@ C=nproc
 if [ "${C}" != 1 ] 
 then
 echo " This server is very small"
-exit 0
+
 fi
 
 free -m
