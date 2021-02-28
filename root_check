@@ -1,6 +1,6 @@
 #!/bash/bin
 
-if  [ "${id}" -ne 0 ] 
+if  [ "${id}" != 0 ] 
 then
 echo
 echo " You need root Access"
@@ -9,7 +9,7 @@ exit 0
 fi
 
 ## check number of processors
-C = nproc
+C=nproc
 
 if [ ${C} -eq 1 ] 
 then
